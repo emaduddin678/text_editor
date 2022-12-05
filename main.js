@@ -63,8 +63,3 @@ function f9(e){
     textarea.style.textTransform = "capitalize";
     textarea.value = "";
 }
-
-function f10(e){
-    let value = e.value;
-    textarea.style.color = value;
-}

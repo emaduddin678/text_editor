@@ -78,13 +78,7 @@ button.active {
   border-radius: 4px;
 }
 
-input[type=color]{
-    width: 35px;
-    height: 20px;
-    outline: none;
-    border: none;
-    background: none;
-}
+
 
 textarea{
     width: 100%;
