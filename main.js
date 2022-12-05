@@ -3,6 +3,7 @@ const textarea = document.getElementById("textarea");
 function f1(e){
     let value = e.value;
     textarea.style.fontSize = value + "px";
+    console.log(value);
 }
 
 function f2(e){
@@ -53,4 +54,17 @@ function f8(e){
         textarea.style.textTransform = "lowercase";
         e.classList.remove("active");
     }
+}
+
+function f9(e){
+    textarea.style.fontWeight = "normal";
+    textarea.style.textAlign = "left";
+    textarea.style.fontStyle = "normal";
+    textarea.style.textTransform = "capitalize";
+    textarea.value = "";
+}
+
+function f10(e){
+    let value = e.value;
+    textarea.style.color = value;
 }
